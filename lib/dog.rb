@@ -1,8 +1,9 @@
 class Dog
 
-def instance_variable_set(:@name)
-
-end
-
+  def initialize(name, breed)
+    @name = name
+    @breed = breed
+  end
+  
 
 end
